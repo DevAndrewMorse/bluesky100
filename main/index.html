@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bluesky 5 second words</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon"
+        href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIGZpbGw9ImN1cnJlbnRDb2xvciIgdmlld0JveD0iMCAwIDI0IDI0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9J009Ljg4MyAyLjQ3YS43NS43NSAwIDAgMC0xLjA2IDEuMDZsMi42NDcgMi42NDdhLjc1Ljc1IDAgMSAwIDEuMDYtMS4wNnpNNC41OSAzLjUyOEEuNzUuNzUgMCAwIDAgMy41MjcgNC41OWw1LjgyNCA1LjgyNGEuNzUuNzUgMCAxIDAgMS4wNi0xLjA2MXptMTAuNzI4IDQuNDMxYS43NS43NSAwIDAgMC0xLjM0MiAwTDExLjk3IDExLjk3bC00LjAxIDIuMDA2YS43NS43NSAwIDAgMCAwIDEuMzQybDQuMDExIDIuMDA2IDIuMDA2IDQuMDExYS43NS43NSAwIDAgMCAxLjM0MiAwbDIuMDA2LTQuMDExIDQuMDExLTIuMDA2YS43NS43NSAwIDAgMCAwLTEuMzQybC00LjAxMS0yLjAwNnpNMy41MyA4LjgyM2EuNzUuNzUgMCAwIDAtMS4wNiAxLjA2bDIuNjQ3IDIuNjQ3YS43NS43NSAwIDAgMCAxLjA2LTEuMDZ6Jy8+PC9zdmc+" />
+</head>
+
+<body>
+    <h1>Bluesky: 100 most popular words in the last 5 seconds</h1>
+
+    <div class="controls">
+        <div>
+            <button id="toggle-btn">⏸️ Pause</button>
+            <button id="toggleDarkMode">☀️ Light Mode</button>
+        </div>
+        <span id="status">Connecting...</span>
+    </div>
+    <div id="wordCloud">Waiting for data...</div>
+
+    <div class="stats">
+        Messages received: <span id="messageCount">0</span><br>
+        Last wordcloud update: <span id="lastUpdate">Never</span>
+    </div>
+
+    <div id="debug">Debug log:</div>
+
+    <footer>
+        by <a href="https://rakhim.org/">Rakhim D.</a> | <a href="https://github.com/freetonik/bluesky100">source
+            code</a>
+            <p>
+                <a target="_blank" class="bs" href="https://bsky.app/profile/rakhim.org" rel="noopener">
+                    <span>🦋</span>Follow me on Bluesky
+                </a>
+            </p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
